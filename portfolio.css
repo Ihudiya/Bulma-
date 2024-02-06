@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow-y: scroll;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.sectionOne{
+    background-color: rgb(22, 21, 21);
+    width:100%;
+    height:600px;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5vh;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.body{
+    display: flex;
+    margin-right: 100px;
+}
+
+.bgimage{
+    width:350px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+
+.topnav a:hover {
+    
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid white;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.logo{
+    margin-right: 750px;
+    width:100px
+}
+
+.line{
+    border: 1px solid white;
+    height: 0px;
+    margin-top: 20px;
+}
+
+.text{
+    font-size: 50px;
+}
+
+.writeup{
+    font-size: 32px;
+}
+
+button{
+    font-family: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.btn{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2e2e48;
+    background: #fafafc;
+    border-radius: 0.66rem;
+    transition:all 0.2s;
+    box-shadow: 0 0.5rem 1.5rem currentColor;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 0 0 2px #2e2e48, 0 0 0 4px #fafafc;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.active {
+    background-color:white;
+    color: black;
+    padding: 5px;
+}
+
+.sectionTwo{
+    background-color: gray;
+    height: 300px;
+}
